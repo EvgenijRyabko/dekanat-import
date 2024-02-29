@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	  {
+		 "type": "node",
+		 "request": "attach",
+		 "name": "Dekanat import WebSocket",
+		 // Порт Node Inspector
+		 "port": 9229,
+		 // Адрес с нулями не нужен, через localhost работает нормально (Docker с localhost и работает, поэтому необязательно)
+		 // "address": "0.0.0.0",
+		 "localRoot": "${workspaceFolder}",
+		 "restart": true
+		 // Маппинг TS файлов и JS (необязательно)
+		 // "sourceMaps": true
+	  }
+	]
+ }
